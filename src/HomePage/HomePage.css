@@ -1,0 +1,12 @@
+.HomePage{
+    display: flex;
+    flex-direction: row;
+}
+
+.SideBar__Nav{
+    flex: 0.2;
+}
+
+.Time__Line{
+    flex: 0.8;
+}

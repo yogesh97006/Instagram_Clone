@@ -1,0 +1,47 @@
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.logo__name{
+    width: 125px;
+    margin: 25px;
+}
+
+.sidebar__buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__button{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    color: white;
+    background: 0;
+    border: 0;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.sidebar__button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+}
+
+.sidebar__button > span{
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 10px;
+}
+
+.sidebar__morebutton{
+    position: fixed;
+    bottom: 3px;
+}
