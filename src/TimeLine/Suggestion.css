@@ -1,0 +1,54 @@
+.suggestion{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.suggestion__title{
+    font-size: 20px;
+    color: grey;
+    margin: 15px;
+}
+
+.suggestion__usernames{
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestion__username{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user__left{
+    display: flex;
+    align-items: center;
+}
+
+.username__info{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.username__info > h5{
+    font-size: bold;
+}
+
+.username__info > h6{
+    font-weight: 600;
+    font-size: 13px;
+    color: grey;
+    margin-top: -17px;
+}
+
+.user__btn{
+    color: rgb(39, 51, 213);
+    background-color: black;
+    border: 0;
+    font-weight: bold;
+}
+
+.user__btn:hover{
+    color: white;
+    cursor: pointer;
+}

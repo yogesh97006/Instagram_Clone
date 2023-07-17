@@ -4,18 +4,18 @@ import Avatar from '@mui/material/Avatar';
 import { FavoriteBorderOutlined,ChatOutlined,SendOutlined,BookmarkBorder } from '@mui/icons-material';
 import './Post.css'
 
-function Post() {
+function Post({Name,Img,Timeline,Likes}) {
   return (
     <div className='post'>
         <div className='post__header'>
            <div className='post__headerAuther'>
            <Avatar>H</Avatar>
-            Virat Kohil • <span> 10h </span>
+            {Name}  • <span>  {Timeline} </span>
            </div>
            <MoreHoriz />
         </div>
         <div className='post__image'>
-          <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg' alt='postimage' />
+          <img  src={Img} alt='postimage' />
         </div>
         <div className='post__footer'>
             <div className='post__footericons'>
@@ -29,7 +29,7 @@ function Post() {
             </div>
             </div>
         </div>
-       Like By 21 People.
+       Like By {Likes} People.
     </div>
   )
 }

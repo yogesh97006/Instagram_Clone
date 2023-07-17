@@ -1,5 +1,5 @@
 .post{
-    max-width: 550px !important;
+    width: 550px ;
     margin: 30px 40px 50px 40px;
 }
 
@@ -24,7 +24,7 @@ font-size: 18px;
     font-size: 15px;
 }
 
-.post__image{
+.post__image > img{
     width: 100%;
     border: 0.6px solid rgba(128, 128, 128, 0.516);
     border-radius: 6px;
